@@ -7,10 +7,9 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const sassMiddleware = require('node-sass-middleware');
 const serveFavicon = require('serve-favicon');
-
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/user');
-
+// const instance = require("./public/scripts/script");
 const app = express();
 
 // Setup view engine
